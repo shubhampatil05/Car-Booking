@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Shantell Sans", cursive;
+}
+
+.Nav {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(30, 117, 78);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 30px;
+  background-color: #f4d03f;
+  background-image: linear-gradient(132deg, #f4d03f 0%, #16a085 100%);
+}
+
+.buttonsTwo {
+  width: 170px;
+}
+.buttonsThree {
+  width: 250px;
+}
+
+.Home {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards {
+  border: 2px solid gray;
+  padding: 5px;
+  border-radius: 10px;
+  width: 314px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.signup {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form-control {
+  width: 80% !important;
+  font-weight: bold !important;
+}
+
+.signup-form {
+  width: 700px;
+  height: 540px;
+  box-shadow: 1px 3px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+span {
+  align-self: flex-start;
+  margin-left: 75px;
+}
+
+.login {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 700px;
+  height: 200px;
+  box-shadow: 1px 3px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: space-around;
+}
+
+i {
+  position: absolute;
+  margin-left: 500px;
+  margin-top: -33px;
+  font-size: 18px;
+  cursor: pointer;
+}
+.information {
+  width: 100%;
+  height: 89vh;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fffb7d 100%);
+}
+
+.box {
+  width: 600px;
+  height: 90vh;
+  display: flex;
+  padding-top: 15px;
+  flex-direction: column;
+  align-items: center;
+
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+label {
+  font-weight: bold;
+}
+.details {
+  display: flex;
+  width: 500px;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+
+.pickup {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.drop {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10px;
+}
+input {
+  text-align: center;
+  border-radius: 5px;
+}
+.pick-drop {
+  display: flex;
+  justify-content: center;
+}
+.driver-type {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  text-align: center;
+}
+select {
+  text-align: center;
+  border-radius: 5px;
+}
+.pickupTime {
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.location {
+  display: flex;
+}
+.pickup-location {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.drop-location {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.container-fluid {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  flex-direction: column;
+}
+
+.main-page {
+  background-color: #ffffff;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 20px;
+}
+.ATM-Card {
+  width: 320px;
+  height: 210px;
+  box-shadow: 9px 9px 9px #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+  background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1600);
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: 9px 9px 9px gray;
+  margin-bottom: 10px;
+}
+
+.text-input,
+.number-input {
+  width: 100% !important;
+  border-radius: 7px !important;
+  height: 35px !important;
+  font-weight: bold !important;
+}
+
+.option {
+  font-weight: bold !important;
+}
+#CVV {
+  border-radius: 7px;
+  height: 35px;
+  width: 100px;
+}
+
+.select {
+  font-weight: bold;
+  height: 35px;
+  border-radius: 7px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+  font-weight: bold;
+}
+.logoOne {
+  width: 50px;
+  height: 50px;
+  border-radius: 20px;
+}
+
+.logoTwo {
+  width: 90px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.logos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.card-number {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+
+.card-number > h1 {
+  font-style: italic;
+  width: 100%;
+  font-size: 30px;
+  padding-left: 20px;
+  padding-top: 10px;
+  font-size: 25px;
+}
+.card-info {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Shantell Sans", cursive;
+  padding: 0px 10px 10px 10px;
+}
+
+.card-holder {
+  width: 60%;
+}
+
+.card-expiry > h3 {
+  padding-left: 20px;
+}
+.cvv {
+  background-color: #ffffff;
+  width: 90%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 5%;
+  border-radius: 5px;
+}
+.blackStrip {
+  background-color: black;
+  width: 100%;
+  height: 40px;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.cvv > h3 {
+  padding-right: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+  font-family: "Shantell Sans", cursive;
+}
+.info > p {
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table > tbody {
+  font-weight: 500;
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  width: 325px;
+  border-radius: 5px;
+}
+.ExpiryAndCVV {
+  width: 100%;
+}
+.labels {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 10px;
+
+  width: 100%;
+}
+.MYCVV {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
